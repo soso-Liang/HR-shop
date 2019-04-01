@@ -35,3 +35,7 @@
 ```
 
 QQ交流群 :488148501
+微信交流群：
+![image](https://github.com/hardphp/tp5-api/blob/master/895310371197138665.jpg)
+
+
