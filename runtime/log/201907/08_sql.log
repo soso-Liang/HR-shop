@@ -1,0 +1,169 @@
+---------------------------------------------------------------
+[ 2019-07-08T22:07:03+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.808955s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:1.292009s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.050181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.127183s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title` FROM `tp_admin` `a` LEFT JOIN `tp_auth_group` `b` ON `a`.`groupId`=`b`.`id` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.217779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.020741s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.110405s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `userName` , `roles` , `loginTime` , `loginIp`) VALUES (1 , 'admin' , '超级管理员' , 1562594822 , '127.0.0.1') [ RunTime:0.251063s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `loginTime`=1562594822  WHERE  `id` = 1 [ RunTime:0.235105s ]
+---------------------------------------------------------------
+[ 2019-07-08T22:07:04+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003860s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.035832s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.016523s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.085177s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.004784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.018192s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002921s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.038719s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.022268s ]
+---------------------------------------------------------------
+[ 2019-07-08T22:45:01+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043971s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.101793s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.014935s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.026689s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.029875s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002424s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.004477s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002663s ]
+---------------------------------------------------------------
+[ 2019-07-08T22:48:04+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012596s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.045793s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.011513s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title` FROM `tp_admin` `a` LEFT JOIN `tp_auth_group` `b` ON `a`.`groupId`=`b`.`id` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.011602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003597s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.013698s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `userName` , `roles` , `loginTime` , `loginIp`) VALUES (1 , 'admin' , '超级管理员' , 1562597284 , '127.0.0.1') [ RunTime:0.112965s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `loginTime`=1562597284  WHERE  `id` = 1 [ RunTime:0.288209s ]
+---------------------------------------------------------------
+[ 2019-07-08T22:48:05+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015018s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.017243s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.004833s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.012553s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.012926s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.010575s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002858s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.023249s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003041s ]
+---------------------------------------------------------------
+[ 2019-07-08T22:49:24+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003958s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.011717s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.011764s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.012081s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.011362s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002121s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003689s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002552s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:03:56+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004158s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.046208s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.011108s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title` FROM `tp_admin` `a` LEFT JOIN `tp_auth_group` `b` ON `a`.`groupId`=`b`.`id` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.010757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003016s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.011693s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `userName` , `roles` , `loginTime` , `loginIp`) VALUES (1 , 'admin' , '超级管理员' , 1562598236 , '127.0.0.1') [ RunTime:0.060928s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `loginTime`=1562598236  WHERE  `id` = 1 [ RunTime:0.035494s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:03:57+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031146s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.023436s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.011784s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.017632s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.001881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.010996s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002453s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002906s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001797s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:34:13+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149078s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.227737s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.020006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.016488s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title` FROM `tp_admin` `a` LEFT JOIN `tp_auth_group` `b` ON `a`.`groupId`=`b`.`id` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.016236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.006506s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.073950s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `userName` , `roles` , `loginTime` , `loginIp`) VALUES (1 , 'admin' , '超级管理员' , 1562600052 , '127.0.0.1') [ RunTime:0.182460s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `loginTime`=1562600052  WHERE  `id` = 1 [ RunTime:0.270900s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:34:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018727s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.056079s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.013225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.011864s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.027114s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.011632s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002435s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.004241s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002454s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:35:27+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027537s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.012879s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002996s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.011515s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.037808s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.011947s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002363s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003532s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003150s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:44:16+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052607s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.118049s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.017360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.201486s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title` FROM `tp_admin` `a` LEFT JOIN `tp_auth_group` `b` ON `a`.`groupId`=`b`.`id` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.104340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004523s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.040069s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `userName` , `roles` , `loginTime` , `loginIp`) VALUES (1 , 'admin' , '超级管理员' , 1562600655 , '127.0.0.1') [ RunTime:0.107702s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `loginTime`=1562600655  WHERE  `id` = 1 [ RunTime:0.053255s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:44:16+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013704s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.053832s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.016082s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.016559s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.015718s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003007s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002717s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002490s ]
+---------------------------------------------------------------
+[ 2019-07-08T23:53:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019668s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.067180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.007060s ]

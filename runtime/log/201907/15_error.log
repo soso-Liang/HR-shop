@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-07-15T22:09:55+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/create
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'thumb' doesn't have a default value[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-07-15T22:11:18+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/create
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'create_time' doesn't have a default value[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\db\Connection.php:453]

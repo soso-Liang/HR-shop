@@ -23,7 +23,7 @@ class UploadUtil
             // 框架应用根目录/uploads/ 目录下
             $path = ROOT_PATH . 'public' . DS . 'uploads' . DS . 'images';
         }
-        $files = request()->file($name);
+        $files = $name;
         $info  = $files->validate(['size' => 1024 * 1024 * 5, 'ext' => ['gif', 'jpg', 'jpeg', 'png']])->move($path);
         if ($info) {
             // 成功上传后 获取上传信息

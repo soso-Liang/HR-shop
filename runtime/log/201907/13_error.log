@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[ 2019-07-13T17:24:35+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]Missing argument 1 for think\Model::get(), called in E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php on line 19 and defined[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Model.php:1696]

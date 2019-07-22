@@ -1,0 +1,1312 @@
+---------------------------------------------------------------
+[ 2019-07-18T21:56:33+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041442s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.384061s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.024113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.040968s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004390s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.131804s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002163s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002982s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002016s ]
+---------------------------------------------------------------
+[ 2019-07-18T21:56:54+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015560s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.135150s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.030285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.023795s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.044768s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.107403s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.117685s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001912s ]
+---------------------------------------------------------------
+[ 2019-07-18T21:57:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042146s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.069239s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.028308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.042175s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002019s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.025395s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.003190s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 8,2 [ RunTime:0.001517s ]
+---------------------------------------------------------------
+[ 2019-07-18T21:57:23+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003118s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.112292s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002080s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.023250s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.024412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003502s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.001718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.003980s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001858s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 6,2 [ RunTime:0.002551s ]
+---------------------------------------------------------------
+[ 2019-07-18T21:57:28+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026045s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.025328s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.010950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005260s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.018344s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005631s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003008s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:03:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/edit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023232s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.179593s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.012048s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.019065s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003393s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/edit' LIMIT 1 [ RunTime:0.002660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.023901s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002199s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:36:11+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003317s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.019312s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.025461s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002048s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.029804s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003408s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001931s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003592s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002539s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:36:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003421s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003368s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.045113s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004049s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.003544s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002059s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:36:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003458s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004932s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004578s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004510s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.015561s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002711s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003961s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002246s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:36:51+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004801s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004175s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005292s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002729s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004541s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002445s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:38:44+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011775s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004918s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.027603s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004414s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.033528s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001977s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003676s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002291s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:38:45+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004377s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.019193s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.013051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.021644s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.017069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.006732s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.016343s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022265s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:39:47+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003978s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.056010s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.028613s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005041s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.022088s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016781s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.018656s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001930s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:39:48+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003578s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.052498s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.020312s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.008953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005322s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.005444s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 112 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002690s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:43:39+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003264s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003615s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.020215s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title` FROM `tp_admin` `a` LEFT JOIN `tp_auth_group` `b` ON `a`.`groupId`=`b`.`id` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.047109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003497s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.003809s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `userName` , `roles` , `loginTime` , `loginIp`) VALUES (1 , 'admin' , '超级管理员' , 1563461019 , '127.0.0.1') [ RunTime:0.410073s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `loginTime`=1563461019  WHERE  `id` = 1 [ RunTime:0.197445s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:43:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003317s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.002964s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003062s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.001875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.065888s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.020853s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001779s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:43:41+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003579s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004115s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.012656s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004392s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005020s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.007472s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002875s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:43:50+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003355s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003451s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003419s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003628s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.002573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004036s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001943s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002782s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:43:54+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003466s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.002837s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.024733s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.001705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.024156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 8,2 [ RunTime:0.001298s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:43:56+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003108s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004103s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.002863s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.002971s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.002791s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 6,2 [ RunTime:0.001421s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:44:00+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004378s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004488s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.023119s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005377s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.024490s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004111s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002419s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:47:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004309s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004412s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004571s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004023s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.014159s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002507s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003851s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:47:20+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005029s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.037634s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.013093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.098779s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.009349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.023241s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.007245s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010409s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:49:52+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004546s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.038571s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.034229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003984s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004961s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003503s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001970s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003623s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002062s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:49:53+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003565s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.033984s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.016949s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.036881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.060071s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.014857s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013200s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:51:12+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003724s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.053886s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005386s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.015583s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002866s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004507s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002764s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003740s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002493s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:51:13+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003624s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004101s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006311s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005126s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.017116s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004796s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.001657s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:54:08+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004611s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004550s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.014964s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004938s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004682s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004293s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002400s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003768s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002547s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:54:09+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003696s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004669s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.025254s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004906s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004870s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004712s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002833s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:54:36+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003578s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003728s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004547s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.029173s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002722s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.073873s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002231s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:54:38+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004045s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.019567s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004084s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004779s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004513s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.003240s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:55:50+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003969s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004570s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004641s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005027s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004636s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.033151s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.015557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002469s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:55:51+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003373s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003706s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.023124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004605s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004549s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004637s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004448s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002491s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:56:18+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003795s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004045s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004579s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004251s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004321s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003689s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002446s ]
+---------------------------------------------------------------
+[ 2019-07-18T22:56:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003666s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003918s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004640s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.027173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004221s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004815s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002741s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:00:04+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012596s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.054770s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.019330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004900s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005530s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.021691s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002006s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003202s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002212s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:00:06+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004096s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004602s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.021491s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004627s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.017467s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004799s ]
+[ sql ] [ SQL ] SELECT `name`,`level`,`create_time`,`update_time`,`delete_time` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002435s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:00:35+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004356s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004679s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004909s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005196s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.034187s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.012031s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.016353s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002337s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:00:37+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004285s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.026956s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.028464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005167s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.006146s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004746s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.006761s ]
+[ sql ] [ SQL ] SELECT `name`,`level`,`create_time`,`update_time`,`delete_time` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002613s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:01:03+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004261s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004695s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004129s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003823s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004428s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002471s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003880s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002389s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:01:04+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003756s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003933s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004513s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.020132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004707s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004671s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004538s ]
+[ sql ] [ SQL ] SELECT `name`,`level`,`create_time`,`update_time`,`delete_time` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002380s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:04:02+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012504s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004427s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004058s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004545s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002535s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.004028s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002591s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:04:03+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004059s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004719s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002833s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.014223s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005054s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002791s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004405s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.004044s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004251s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002321s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:12:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003878s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004012s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004867s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004135s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004072s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002392s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003597s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002235s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:12:15+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004919s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003754s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004340s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004047s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004992s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004078s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.003107s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:13:02+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003018s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.002890s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003421s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003837s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003633s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002102s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003506s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001920s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:13:03+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004287s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003903s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.015286s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004023s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004127s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004578s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.003133s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:13:57+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003442s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003833s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004514s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004553s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004546s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002641s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003546s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001675s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:13:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003517s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003804s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.028406s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004371s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004792s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.006162s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002099s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:14:17+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003894s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004607s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004160s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004140s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004160s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002321s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003515s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002305s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:14:22+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003975s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004798s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004288s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004429s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.031737s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003136s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001974s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:14:29+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003213s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003666s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003709s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004500s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.002177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005123s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002675s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002421s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:14:33+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003241s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.025121s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003240s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.002245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 6,2 [ RunTime:0.002082s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:14:37+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003914s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.002831s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003969s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001980s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003434s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.001915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.128812s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004865s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.001543s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:15:21+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004229s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003882s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002100s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004750s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004915s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.029391s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.045584s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003204s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002254s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:15:22+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003638s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003946s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004126s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005600s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.026223s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 112 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.006371s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002507s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:16:32+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004115s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004818s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004589s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004183s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003842s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002173s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003910s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002747s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:21:39+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004251s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004691s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003591s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004502s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.002445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.003824s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022046s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002213s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:21:55+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004107s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.006052s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005301s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004935s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005940s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.003806s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.001988s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:22:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003653s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004692s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004694s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004268s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003891s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002580s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003361s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002682s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:22:41+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003654s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003899s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004673s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004632s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004898s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004761s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002705s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:23:59+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004101s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004638s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004489s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003488s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.002841s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002343s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002583s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:24:01+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003745s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004679s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004449s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004860s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004549s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002956s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:24:44+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004055s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004332s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.015415s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004696s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004262s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002529s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003672s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002495s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:24:45+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003642s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003921s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004517s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004659s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005268s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002786s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:25:11+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003736s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003657s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.028549s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004980s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.003277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004393s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002387s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003630s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002406s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:25:12+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004227s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004476s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005311s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004795s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.003395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.005333s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004900s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002599s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:25:30+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003977s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003755s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004667s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005054s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004897s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002187s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003199s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002024s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:25:31+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003887s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004628s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004610s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005196s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004541s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004384s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002242s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:31:46+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004303s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003807s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004735s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004032s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.005080s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002641s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003458s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002645s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:31:47+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003588s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003800s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004046s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004042s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004853s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.005094s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.002137s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:32:17+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004089s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004759s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.013232s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003712s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.021787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003487s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002043s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002729s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002097s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:32:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003589s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003791s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.030974s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004771s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/getinfo' LIMIT 1 [ RunTime:0.002971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004704s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE (  `user_id` = 105 ) AND `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.005568s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`level` FROM `tp_grade` WHERE (  `id` = 1 ) AND `tp_grade`.`delete_time` IS NULL [ RunTime:0.039715s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:32:50+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004351s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003392s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.030659s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004877s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004170s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013037s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003701s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003102s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:32:52+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004115s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.005088s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.026568s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004402s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.002454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004635s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011776s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002893s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:34:16+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035175s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.124344s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006213s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004715s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.003658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.024976s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003737s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002479s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:34:41+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018951s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.059678s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.020377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003194s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003238s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.001806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.004321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001700s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001984s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:35:17+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003075s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003087s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.208707s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003497s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/userinfo/index' LIMIT 1 [ RunTime:0.002384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_info` [ RunTime:0.003839s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002214s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_info` WHERE `tp_user_info`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002159s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:40:10+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018900s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.016642s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001895s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003214s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.020640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003096s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002318s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:41:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033464s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.060166s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.009682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004721s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004284s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004335s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002599s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.014588s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002609s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:41:50+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046184s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.038482s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.018898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004711s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.005511s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.003005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.022456s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002334s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:43:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029530s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.025538s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004619s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004721s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004209s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002566s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002887s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:46:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013242s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.039709s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.019185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003875s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003667s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.011933s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001965s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003383s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002412s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:46:18+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017503s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.018915s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.012271s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004885s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.003420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.029858s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001705s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002277s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:48:43+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019749s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.040013s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.019058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004316s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004709s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.072850s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.017698s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.036401s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002721s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:48:44+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041751s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003634s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003772s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.001976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.019097s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001584s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001907s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:48:56+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023011s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.017706s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004453s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.027295s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003591s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002455s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.027393s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002761s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:48:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019869s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003738s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001944s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.045992s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.007152s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.031093s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002240s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001668s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:49:28+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022084s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.151512s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004038s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.054379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003548s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.030660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.003217s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001745s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001544s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:49:42+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026792s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.092711s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.030450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003987s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003918s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003677s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002051s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.092827s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002265s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:49:44+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003600s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.008400s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004011s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004014s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004455s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002308s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002245s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:51:29+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015082s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.092526s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.026389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.043585s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001878s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003237s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.001906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.003690s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.024500s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.003304s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:51:38+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018163s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.018395s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.031928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003810s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004042s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.013269s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001891s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002220s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:52:12+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024562s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.092721s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.025471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003263s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003065s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003794s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001725s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.020247s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001688s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:52:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.066583s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.051557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004563s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003438s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.003022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.003321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001861s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:54:34+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011091s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.052643s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.022536s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004164s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.003575s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002883s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001819s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:54:35+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012096s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.030979s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.003003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004973s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004578s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.004185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002121s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002255s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:56:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017547s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004301s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004350s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003426s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.041913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.003834s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014924s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001581s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:56:25+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003899s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.016785s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.029602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.017355s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003709s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.028791s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.025016s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:56:34+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003894s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.004469s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.002438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004276s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004178s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.004332s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002350s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002456s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:56:36+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003780s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.084821s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.083812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.073626s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.078909s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.012324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002768s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.002288s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:57:35+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003098s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.026497s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.001979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003727s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004506s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.002806s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002384s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001736s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:58:03+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026705s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.111237s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.056265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.040477s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.048542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003854s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.001826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.003092s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001423s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:58:24+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003653s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.003876s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.508115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.010768s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.016660s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/admin/getuser' LIMIT 1 [ RunTime:0.002252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_group` [ RunTime:0.101872s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `id` IN (44,45,41,43,42,39,40,1,38,7,2)  AND `status` = 1 ORDER BY `sorts` [ RunTime:0.002091s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082522s ]
+---------------------------------------------------------------
+[ 2019-07-18T23:58:25+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003210s ] mysql:host=127.0.0.1;dbname=tp5qpi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_app` [ RunTime:0.085904s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_app` WHERE  `appId` = 'ty9fd2848a039ab554' LIMIT 1 [ RunTime:0.085017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.116008s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.026139s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_rule` WHERE  `name` = 'admin/grade/index' LIMIT 1 [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_grade` [ RunTime:0.108785s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001729s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_grade` WHERE `tp_grade`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.001903s ]

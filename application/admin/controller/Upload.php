@@ -25,12 +25,12 @@ class Upload extends \think\Controller
     //上传图片
     public function upimage()
     {
-        $filename = input('filename', '', 'trim');
+        $filename = request()->file('image');
         if (empty($filename)) {
             ajax_return_error('参数错误');
         }
         $url = uploadUtil::upimage($filename);
-        $url = request()->domain().$url;
+        $url = request()->domain().'/tp5-api/public'.$url;
         ajax_return_ok(['url' => $url]);
     }
 

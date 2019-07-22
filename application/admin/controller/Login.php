@@ -24,10 +24,11 @@ class Login extends Api
         if ($this->request->isPost()) {
             //接收数据
             $data     = [
-                'userName' => input('userName', '', 'trim'),
+                'userName' => input('username', '', 'trim'),
                 'password' => input('password', '', 'trim'),
                 //'verify'   => input('verify', '', 'trim')
             ];
+            // dump($data);exit();
             $validate = validate('Admin');
             $result   = $validate->scene('login')->check($data);
             if (!$result) {
@@ -38,6 +39,7 @@ class Login extends Api
             $result = model('Admin', 'logic')->login($data['userName'], $data['password']);
             ajax_return_ok($result, '登录成功');
         }
+        
     }
 
 

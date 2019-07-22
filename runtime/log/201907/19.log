@@ -1,0 +1,1151 @@
+---------------------------------------------------------------
+[ 2019-07-19T00:00:24+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[运行时间：5.049919s] [吞吐率：0.20req/s] [内存消耗：4,530.55kb] [文件加载：72]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->getuser[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:01:12+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.824085s] [吞吐率：1.21req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:01:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.739005s] [吞吐率：1.35req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:01:59+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：1.271566s] [吞吐率：0.79req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:02:06+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：1.903764s] [吞吐率：0.53req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:02:17+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：1.377130s] [吞吐率：0.73req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:03:31+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.797499s] [吞吐率：1.25req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:03:34+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.728591s] [吞吐率：1.37req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:03:54+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.359417s] [吞吐率：2.78req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:04:07+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.469874s] [吞吐率：2.13req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:04:10+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.482674s] [吞吐率：2.07req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:04:48+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[运行时间：0.793038s] [吞吐率：1.26req/s] [内存消耗：4,530.56kb] [文件加载：72]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->getuser[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:04:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.528841s] [吞吐率：1.89req/s] [内存消耗：4,556.53kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:07:10+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[运行时间：1.365648s] [吞吐率：0.73req/s] [内存消耗：4,530.56kb] [文件加载：72]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->getuser[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:07:32+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[运行时间：0.676602s] [吞吐率：1.48req/s] [内存消耗：4,530.56kb] [文件加载：72]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->getuser[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:19:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：2.046927s] [吞吐率：0.49req/s] [内存消耗：4,559.45kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:20:08+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：0.605155s] [吞吐率：1.65req/s] [内存消耗：4,431.80kb] [文件加载：71]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级1',
+  'signature' => '4f34500919a2685fc0f3862323ff529b',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:20:33+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：1.392574s] [吞吐率：0.72req/s] [内存消耗：4,559.45kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:20:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：1.023468s] [吞吐率：0.98req/s] [内存消耗：4,431.80kb] [文件加载：71]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级1',
+  'signature' => '4f34500919a2685fc0f3862323ff529b',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:20:56+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：1.210365s] [吞吐率：0.83req/s] [内存消耗：4,500.38kb] [文件加载：74]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级2',
+  'signature' => 'f7b0631b889dbbc2538372e368a7043f',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:21:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：0.440471s] [吞吐率：2.27req/s] [内存消耗：4,500.39kb] [文件加载：74]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级2',
+  'signature' => 'f7b0631b889dbbc2538372e368a7043f',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:22:04+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：0.571919s] [吞吐率：1.75req/s] [内存消耗：4,500.39kb] [文件加载：74]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级2',
+  'signature' => 'f7b0631b889dbbc2538372e368a7043f',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:22:36+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[运行时间：0.558490s] [吞吐率：1.79req/s] [内存消耗：4,530.56kb] [文件加载：72]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->getuser[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:22:38+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：1.652287s] [吞吐率：0.61req/s] [内存消耗：4,559.48kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '37d7b5e3d72e32c75290100a102e0eb7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:25:59+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：4.012832s] [吞吐率：0.25req/s] [内存消耗：4,393.80kb] [文件加载：71]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级2',
+  'signature' => 'f7b0631b889dbbc2538372e368a7043f',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:26:00+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.603044s] [吞吐率：1.66req/s] [内存消耗：4,562.13kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'signature' => '0998704a39af15d3de2dac305cdc43dc',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:26:22+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/add
+[运行时间：0.486015s] [吞吐率：2.06req/s] [内存消耗：4,393.80kb] [文件加载：71]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '71',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'level_name' => '等级3',
+  'signature' => 'af4456df8285549ce047a9865050b999',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->add[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:26:23+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.695369s] [吞吐率：1.44req/s] [内存消耗：4,562.13kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'signature' => '0998704a39af15d3de2dac305cdc43dc',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:26:28+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.442270s] [吞吐率：2.26req/s] [内存消耗：4,559.99kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => 2,
+  'signature' => 'd9b28655ee326d204437ed5b787047fd',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-19T00:26:30+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[运行时间：0.475941s] [吞吐率：2.10req/s] [内存消耗：4,562.13kb] [文件加载：75]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'grade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-host' => 'localhost:8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-for' => '127.0.0.1',
+  'cookie' => 'Admin-Token=E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'x-access-appid' => 'ty9fd2848a039ab554',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-access-token' => 'E8DC8E05BED042EEC935DD3F0291C5F9MDAwMDAwMDAwML6Mna-FqrqSib2cgMOHoIC7o36CkY6xfLjQzqGGZIXVuGadr4u5um-LunZ_w4efabGmjmWDo3-gu5SsqIhkp6vHZJ3Ynau-moXTqGG4nZSnyX-ohIONk4a7qbuxiIqnt7GfYrmJu8yJj6pxpbNilI64pYWphaahabOnr2iLeJ_dtmV_q4nNtWmNqoZ6uHd9ZbOmrKqFo52KxqaWsoegka24ZnfYhaShdg',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'signature' => '0998704a39af15d3de2dac305cdc43dc',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Grade->index[ E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php ]
+[ info ] [ LOG ] INIT File

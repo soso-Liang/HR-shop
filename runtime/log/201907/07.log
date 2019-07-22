@@ -1,0 +1,27 @@
+---------------------------------------------------------------
+[ 2019-07-07T15:29:30+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5-api/public/
+[运行时间：17.718619s] [吞吐率：0.06req/s] [内存消耗：3,249.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\wamp64\www\tp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'phone=18210787405; token=07490ac61585fce5fdced600b3f78cd4; user_id=393; admin=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\wamp64\www\tp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[ 2019-07-16T22:04:33+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/create
+[ error ] [10501]SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '1563206400' for column 'birthday' at row 1[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\db\Connection.php:453]

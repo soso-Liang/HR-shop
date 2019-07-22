@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2019-07-09T00:01:08+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/log/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:01:59+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5-api/public/index.php/admin/log/index?page=1&psize=10&uid=&userName=&loginIp=&startTime=&endTime=
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:02:07+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5-api/public/index.php/admin/log/index?page=1&psize=10&uid=&userName=&loginIp=&startTime=&endTime=
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:04:03+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5-api/public/index.php/admin/log/index?page=1&psize=10&uid=&userName=&loginIp=&startTime=&endTime=
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:04:32+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/log/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:04:50+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/log/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:05:10+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:05:15+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:05:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/log/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:36:22+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/log/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-09T00:46:22+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/log/index
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]

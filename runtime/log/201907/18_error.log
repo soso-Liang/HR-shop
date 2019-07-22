@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2019-07-18T22:36:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [0]类的属性不存在:app\admin\model\UserInfo->grade[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2019-07-18T22:36:51+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [0]method not exist:think\db\Query->filed[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\db\Query.php:103]
+---------------------------------------------------------------
+[ 2019-07-18T22:38:45+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [0]method not exist:think\db\Query->file[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\db\Query.php:103]
+---------------------------------------------------------------
+[ 2019-07-18T22:54:09+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [8]Use of undefined constant length - assumed 'length'[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:125]
+---------------------------------------------------------------
+[ 2019-07-18T22:56:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp5qpi.level' doesn't exist[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-07-18T23:14:37+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [8]Array to string conversion[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:125]
+---------------------------------------------------------------
+[ 2019-07-18T23:21:55+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/getInfo
+[ error ] [0]致命错误: Call to a member function toArray() on array[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:125]
+---------------------------------------------------------------
+[ 2019-07-18T23:40:10+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/grade/index
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\Grade::paginate()[E:\wamp\wamp64\www\tp5-api\application\admin\controller\Grade.php:24]

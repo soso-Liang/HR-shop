@@ -37,7 +37,7 @@ class Admin extends Base
 
     //获取登录用户信息
     public function getuser()
-    {
+    {   
         $user    = $this->user;
         $access  = my_model('AuthRule', 'logic', 'admin')->getAuthByGroupIdToTree($user['groupId']);
         $routers = [];

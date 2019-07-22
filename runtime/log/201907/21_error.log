@@ -1,0 +1,120 @@
+---------------------------------------------------------------
+[ 2019-07-21T10:57:24+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [8]Undefined property: think\paginator\driver\Bootstrap::$levels[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:28]
+---------------------------------------------------------------
+[ 2019-07-21T10:58:31+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Collection' does not have a method 'levels'[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Paginator.php:400]
+---------------------------------------------------------------
+[ 2019-07-21T10:59:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Collection' does not have a method 'levels'[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Paginator.php:400]
+---------------------------------------------------------------
+[ 2019-07-21T11:03:01+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [8]Undefined property: think\paginator\driver\Bootstrap::$levels[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:28]
+---------------------------------------------------------------
+[ 2019-07-21T11:09:13+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [8192]Non-static method app\admin\model\UserInfo::levels() should not be called statically[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:24]
+---------------------------------------------------------------
+[ 2019-07-21T11:12:08+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Collection' does not have a method 'levels'[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Paginator.php:400]
+---------------------------------------------------------------
+[ 2019-07-21T11:12:20+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [8]Undefined property: think\paginator\driver\Bootstrap::$levels[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:26]
+---------------------------------------------------------------
+[ 2019-07-21T17:56:24+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]语法解析错误: syntax error, unexpected ')', expecting function (T_FUNCTION)[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:36]
+---------------------------------------------------------------
+[ 2019-07-21T17:57:48+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]语法解析错误: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:29]
+---------------------------------------------------------------
+[ 2019-07-21T17:59:41+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]致命错误: Call to undefined function app\admin\controller\empoty()[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:29]
+---------------------------------------------------------------
+[ 2019-07-21T18:03:02+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]Illegal string offset 'user_name'[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:21]
+---------------------------------------------------------------
+[ 2019-07-21T18:04:51+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T18:05:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]Illegal string offset 'user_name'[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:21]
+---------------------------------------------------------------
+[ 2019-07-21T18:05:49+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T18:06:34+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [2]Illegal string offset 'user_name'[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:21]
+---------------------------------------------------------------
+[ 2019-07-21T18:07:09+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:15:50+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:19:19+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:26:36+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:27:26+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [2]ksort() expects parameter 1 to be array, null given[E:\wamp\wamp64\www\tp5-api\application\common\util\AuthUtil.php:42]
+---------------------------------------------------------------
+[ 2019-07-21T19:27:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ error ] [2]ksort() expects parameter 1 to be array, null given[E:\wamp\wamp64\www\tp5-api\application\common\util\AuthUtil.php:42]
+---------------------------------------------------------------
+[ 2019-07-21T19:27:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ error ] [2]ksort() expects parameter 1 to be array, null given[E:\wamp\wamp64\www\tp5-api\application\common\util\AuthUtil.php:42]
+---------------------------------------------------------------
+[ 2019-07-21T19:28:37+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:28:51+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:28:57+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:29:45+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/login/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T19:52:29+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]variable type error：array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Request.php:1162]
+---------------------------------------------------------------
+[ 2019-07-21T19:55:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]variable type error：array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Request.php:1162]
+---------------------------------------------------------------
+[ 2019-07-21T19:58:04+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]variable type error：array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Request.php:1162]
+---------------------------------------------------------------
+[ 2019-07-21T20:01:43+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]variable type error：array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Request.php:1162]
+---------------------------------------------------------------
+[ 2019-07-21T20:12:57+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [0]variable type error：array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Request.php:1162]
+---------------------------------------------------------------
+[ 2019-07-21T20:26:31+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [10102]接口签名验证失败[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T20:36:26+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T20:39:22+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T20:40:10+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T20:52:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T20:59:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T22:10:14+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T22:10:51+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-21T22:24:30+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/admin/getuser
+[ error ] [10101]签名参数缺失[E:\wamp\wamp64\www\tp5-api\application\common.php:182]

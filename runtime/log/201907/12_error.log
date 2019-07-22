@@ -1,0 +1,42 @@
+---------------------------------------------------------------
+[ 2019-07-12T00:02:16+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5-api/public/admin/userinfo/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-12T00:02:17+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5-api/public/admin/userinfo/index
+[ error ] [10103]appid不存在[E:\wamp\wamp64\www\tp5-api\application\common.php:182]
+---------------------------------------------------------------
+[ 2019-07-12T00:02:26+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:03:29+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:04:33+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:05:21+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:07:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:08:13+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:09:40+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:14:42+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:17:57+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:20:02+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/userinfo/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:20:58+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/users/index
+[ error ] [0]variable type error： array[E:\wamp\wamp64\www\tp5-api\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-07-12T00:58:41+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5-api/public/index.php/admin/user_info/index
+[ error ] [8192]Non-static method app\admin\model\UserInfo::index() should not be called statically, assuming $this from incompatible context[E:\wamp\wamp64\www\tp5-api\application\admin\controller\UserInfo.php:19]
